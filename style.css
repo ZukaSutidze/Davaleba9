@@ -20,14 +20,15 @@
 body{
     font-family: 'poppins' ,sans-serif;
     background: var(--notfullywhite);
-    
+    display: flex;
+    justify-content: center;
+  
 
 }
 
 .parent{
     position: absolute;
     height: auto;
-    width: 100vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
